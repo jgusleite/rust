@@ -2,6 +2,7 @@ use std::io;
 
 fn main() {
     println!("hello, world!");
+    println!("test");
     f();
 }
 
