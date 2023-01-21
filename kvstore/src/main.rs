@@ -1,3 +1,8 @@
+use std::env::*;
+
 fn main() {
-    print!("Hello, world\n");
+    let args:= std::env::args().skip(1);
+    for arg in args {
+        print!("{arg"});
+    }
 }
