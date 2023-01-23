@@ -1,7 +1,5 @@
 fn main() {
-    let a: i32 = 3;
-    let b: i32 = 1 + 3;
-    assert_eq!(a, b, "testing if {} == {}", a, b);
+  
 }
 
 /*
